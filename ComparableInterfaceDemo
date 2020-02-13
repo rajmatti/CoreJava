@@ -16,7 +16,7 @@ class Employee222 implements Comparable<Employee>
         return "Name : " + name + " Age : " + age + " Experience : " + experience;
     }
     
-    public int compareTo(Employee o) // LINE C
+    public int compareTo(Employee222 o) 
     {
         return experience - o.experience;
     }
